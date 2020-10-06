@@ -2,48 +2,136 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.container{
-    width:100%;
-    box-sizing: border-box;
-}
-.section{
-    
-    border: 1px solid black;
-    min-height: 500px;
-    width: 47%;
-    float: left;
-    padding: 10px;
-    margin: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    width: 100%;
+}
+
+.left-section{
+    border: 1px solid black;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+    background: rgb(229, 247, 215);
+    float: left;
+}
+
+.right-section{
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    width: 70%;
+    height: auto;
+}
+
+.image-header{  
+    background:url(./images/Vedant\ Jawanjal.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -999;
+}
+
+.header-title{
+   font-size: 40px;
+   width: auto;
+   float: right;
+   position: absolute;
+   top: 140px;
+   right: 200px;
+}
+.header-subtitle{
+    font-size: 20px   ;
+    position: absolute;
+    top:200px;
+    right: 250px;
+    color: grey;
+}
+.image-holder{
+    margin-left: 30px;
+    margin-top: -200px;
+    padding: 10px;
+    background: #134056;;
+    width: 300px;
+    
+}
+
+.profile-photo{
+    width: 100%;
+    height: 200px;
+    background:url("https://source.unsplash.com/300x200/?dogs,cats");
+}
+.short-desc{
+  padding: 10px 0px;
+  color: aliceblue;
+  text-align: justify;
+}
+.icon{
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.icon i{
+    padding-right:10px ;
+}
+
+.icon-text{
+    text-align: right;
+    font-weight: lighter;
+}
 .form-group{
     width: 100%;
     padding: 10px;
 }
-
 .form-group label{
     width: 100%;
-    padding: 10px;
 }
-
 .form-group input{
     width: 100%;
     padding: 10px;
 }
-
-.Inner-border{
-    border: 1px solid black;
-    padding: 10px;;
-}
-.text-center{
-    text-align: center;
+.form-group textarea{
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
 }
 
-.error{
-    color: red;
+.content-section{       
+    width:65%;
+    margin-top: -320px;
+    float: right;
 }
 
-.no-error{
-    display: none ;
+.content-section1{
+    width:65%;
+    margin-top: 0px;
+    float: right;
+}
+.title{
+    width: 100%;  
+    color:aliceblue ; 
+    padding: 10px;
+    background: linear-gradient(45deg, #134056, transparent);
+}
+.colleg{
+    border-left: 3px solid rgb(128, 123, 123);
+    padding: 10px;
+    margin: 5px 0px;
+}
+.skills{
+    padding: 10px;
+    color: white;
+}
+
+.skills-title{
+    font-weight:500 ;
+    background: linear-gradient(45deg, #7db0c9, transparent);
+    padding: 10px;
 }
